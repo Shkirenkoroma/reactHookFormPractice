@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/reactHookFormPractice/static/css/main.53ce5c5c.css",
-    "main.js": "/reactHookFormPractice/static/js/main.e6e56051.js",
+    "main.css": "/reactHookFormPractice/static/css/main.ba4b47f2.css",
+    "main.js": "/reactHookFormPractice/static/js/main.42136b35.js",
     "static/media/img1.jpg": "/reactHookFormPractice/static/media/img1.b4882c5786884f059d49.jpg",
     "index.html": "/reactHookFormPractice/index.html",
-    "main.53ce5c5c.css.map": "/reactHookFormPractice/static/css/main.53ce5c5c.css.map",
-    "main.e6e56051.js.map": "/reactHookFormPractice/static/js/main.e6e56051.js.map"
+    "main.ba4b47f2.css.map": "/reactHookFormPractice/static/css/main.ba4b47f2.css.map",
+    "main.42136b35.js.map": "/reactHookFormPractice/static/js/main.42136b35.js.map"
   },
   "entrypoints": [
-    "static/css/main.53ce5c5c.css",
-    "static/js/main.e6e56051.js"
+    "static/css/main.ba4b47f2.css",
+    "static/js/main.42136b35.js"
   ]
 }
