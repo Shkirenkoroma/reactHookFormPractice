@@ -3,10 +3,16 @@ import { useForm } from 'react-hook-form'
 import bgimg from 'assets/img1.jpg'
 
 const Form: FC = (): JSX.Element => {
-  const { register, handleSubmit } = useForm()
+  const {
+    register,
+    handleSubmit,
+    watch,
+    formState: { errors },
+  } = useForm()
   const onSubmit = (data: any): void => {
     console.log('data', data)
   }
+  console.log(watch('username'))
 
   return (
     <section>
@@ -36,9 +42,11 @@ const Form: FC = (): JSX.Element => {
             />
             <input
               type="text"
-              {...register('mobile number')}
+              {...register('mobile', { required: true, maxLength: 10 })}
               placeholder="mobile number"
             />
+            {errors.mobile?.type === 'required' && 'Mobile Number is required'}
+            {errors.mobile?.type === 'maxLength' && 'Max Length Exceed'}
             <button className="btn">Sign In</button>
           </form>
         </div>

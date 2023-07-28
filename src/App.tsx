@@ -1,12 +1,13 @@
-import Form from 'components/form';
-import './App.css';
+import Form from 'components/form'
+import { FC } from 'react'
+import './App.css'
 
-function App() {
+const App:FC = ():JSX.Element => {
   return (
     <div className="App">
-<Form />
+      <Form />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
