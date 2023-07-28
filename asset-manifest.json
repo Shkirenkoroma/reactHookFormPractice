@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reactHookFormPractice/static/css/main.964fdded.css",
+    "main.js": "/reactHookFormPractice/static/js/main.54277093.js",
+    "index.html": "/reactHookFormPractice/index.html",
+    "main.964fdded.css.map": "/reactHookFormPractice/static/css/main.964fdded.css.map",
+    "main.54277093.js.map": "/reactHookFormPractice/static/js/main.54277093.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.964fdded.css",
+    "static/js/main.54277093.js"
+  ]
+}
